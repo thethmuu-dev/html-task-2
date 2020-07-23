@@ -79,21 +79,24 @@ header ul:after {
 }
 
 .function {
-  border: 1px solid #bdbdbd;
   background-color: #c2c2c2;
   padding-top: 20px;
 }
 
 .function-images {
-  padding-top: 3rem;
-  padding-bottom: 10rem;
-  padding-left: 26rem;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3rem;
 }
 
 .function-image {
   float: left;
   overflow: hidden;
   padding-left: 7rem;
+}
+
+.pl-0 {
+  padding-left: 0 !important;
 }
 
 .clearfix:after {
